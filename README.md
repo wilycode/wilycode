@@ -60,54 +60,68 @@ See the [getting started guide](docs/getting-started.md) for examples of choosin
 
 ## Explore the ecosystem
 
-Browse WilyCode by responsibility. The category icons are retained from the earlier documentation, while the package catalog below lists the available libraries.
+Browse packages by category. Select a category to jump to its package list.
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 <p><a href="#core"><img src="docs/assets/icons/core.png" alt="" width="48" height="48"></a></p>
 <p><strong>Core & application</strong></p>
 <p>Composable form handling, validation, dependency injection and configuration.</p>
 <p><a href="#core">Explore packages →</a></p>
-<p>&nbsp;</p>
-
-<p><a href="#http-routing"><img src="docs/assets/icons/http-routing.png" alt="" width="48" height="48"></a></p>
-<p><strong>HTTP & routing</strong></p>
-<p>Request routing, controller discovery and PSR-7 responses.</p>
-<p><a href="#http-routing">Explore packages →</a></p>
-<p>&nbsp;</p>
-
-<p><a href="#templates"><img src="docs/assets/icons/templates.png" alt="" width="48" height="48"></a></p>
-<p><strong>Templates</strong></p>
-<p>PHP templates with optional assets, text utilities and translation.</p>
-<p><a href="#templates">Explore packages →</a></p>
-<p>&nbsp;</p>
-
-<p><a href="#profiling"><img src="docs/assets/icons/profiling.png" alt="" width="48" height="48"></a></p>
-<p><strong>Profiling</strong></p>
-<p>Optional instrumentation and profiling decorators.</p>
-<p><a href="#profiling">Explore packages →</a></p>
-
 </td>
 <td width="50%" valign="top">
 <p><a href="#database"><img src="docs/assets/icons/database.png" alt="" width="48" height="48"></a></p>
 <p><strong>Database & migrations</strong></p>
 <p>Driver interfaces, query building, execution, models and schema versioning.</p>
 <p><a href="#database">Explore packages →</a></p>
-<p>&nbsp;</p>
+</td>
+</tr>
+</table>
 
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<p><a href="#http-routing"><img src="docs/assets/icons/http-routing.png" alt="" width="48" height="48"></a></p>
+<p><strong>HTTP & routing</strong></p>
+<p>Request routing, controller discovery and PSR-7 responses.</p>
+<p><a href="#http-routing">Explore packages →</a></p>
+</td>
+<td width="50%" valign="top">
 <p><a href="#runtime"><img src="docs/assets/icons/runtime.png" alt="" width="48" height="48"></a></p>
 <p><strong>Runtime & utilities</strong></p>
 <p>Caching, sessions, JWT tokens and application logging.</p>
 <p><a href="#runtime">Explore packages →</a></p>
-<p>&nbsp;</p>
+</td>
+</tr>
+</table>
 
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<p><a href="#templates"><img src="docs/assets/icons/templates.png" alt="" width="48" height="48"></a></p>
+<p><strong>Templates</strong></p>
+<p>PHP templates with optional assets, text utilities and translation.</p>
+<p><a href="#templates">Explore packages →</a></p>
+</td>
+<td width="50%" valign="top">
 <p><a href="#translation"><img src="docs/assets/icons/translation.png" alt="" width="48" height="48"></a></p>
 <p><strong>Translation</strong></p>
 <p>Localization contracts, language rules and translation providers.</p>
 <p><a href="#translation">Explore packages →</a></p>
-
 </td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<p><a href="#profiling"><img src="docs/assets/icons/profiling.png" alt="" width="48" height="48"></a></p>
+<p><strong>Profiling</strong></p>
+<p>Optional instrumentation and profiling decorators.</p>
+<p><a href="#profiling">Explore packages →</a></p>
+</td>
+<td width="50%" valign="top">&nbsp;</td>
 </tr>
 </table>
 
