@@ -65,68 +65,49 @@ Browse WilyCode by responsibility. The category icons are retained from the earl
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="#core"><img src="docs/assets/icons/core.png" alt="" width="48" height="48"></a>
-
-<strong>Core & application</strong>
-
+<p><a href="#core"><img src="docs/assets/icons/core.png" alt="" width="48" height="48"></a></p>
+<p><strong>Core & application</strong></p>
 <p>Composable form handling, validation, dependency injection and configuration.</p>
-<a href="#core">Explore packages →</a>
-</td>
-<td width="50%" valign="top">
-<a href="#database"><img src="docs/assets/icons/database.png" alt="" width="48" height="48"></a>
+<p><a href="#core">Explore packages →</a></p>
+<p>&nbsp;</p>
 
-<strong>Database & migrations</strong>
-
-<p>Driver interfaces, query building, execution, models and schema versioning.</p>
-<a href="#database">Explore packages →</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="#http-routing"><img src="docs/assets/icons/http-routing.png" alt="" width="48" height="48"></a>
-
-<strong>HTTP & routing</strong>
-
+<p><a href="#http-routing"><img src="docs/assets/icons/http-routing.png" alt="" width="48" height="48"></a></p>
+<p><strong>HTTP & routing</strong></p>
 <p>Request routing, controller discovery and PSR-7 responses.</p>
-<a href="#http-routing">Explore packages →</a>
-</td>
-<td width="50%" valign="top">
-<a href="#runtime"><img src="docs/assets/icons/runtime.png" alt="" width="48" height="48"></a>
+<p><a href="#http-routing">Explore packages →</a></p>
+<p>&nbsp;</p>
 
-<strong>Runtime & utilities</strong>
-
-<p>Caching, sessions, JWT tokens and application logging.</p>
-<a href="#runtime">Explore packages →</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="#templates"><img src="docs/assets/icons/templates.png" alt="" width="48" height="48"></a>
-
-<strong>Templates</strong>
-
+<p><a href="#templates"><img src="docs/assets/icons/templates.png" alt="" width="48" height="48"></a></p>
+<p><strong>Templates</strong></p>
 <p>PHP templates with optional assets, text utilities and translation.</p>
-<a href="#templates">Explore packages →</a>
-</td>
-<td width="50%" valign="top">
-<a href="#translation"><img src="docs/assets/icons/translation.png" alt="" width="48" height="48"></a>
+<p><a href="#templates">Explore packages →</a></p>
+<p>&nbsp;</p>
 
-<strong>Translation</strong>
-
-<p>Localization contracts, language rules and translation providers.</p>
-<a href="#translation">Explore packages →</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="#profiling"><img src="docs/assets/icons/profiling.png" alt="" width="48" height="48"></a>
-
-<strong>Profiling</strong>
-
+<p><a href="#profiling"><img src="docs/assets/icons/profiling.png" alt="" width="48" height="48"></a></p>
+<p><strong>Profiling</strong></p>
 <p>Optional instrumentation and profiling decorators.</p>
-<a href="#profiling">Explore packages →</a>
+<p><a href="#profiling">Explore packages →</a></p>
+
 </td>
-<td width="50%" valign="top"></td>
+<td width="50%" valign="top">
+<p><a href="#database"><img src="docs/assets/icons/database.png" alt="" width="48" height="48"></a></p>
+<p><strong>Database & migrations</strong></p>
+<p>Driver interfaces, query building, execution, models and schema versioning.</p>
+<p><a href="#database">Explore packages →</a></p>
+<p>&nbsp;</p>
+
+<p><a href="#runtime"><img src="docs/assets/icons/runtime.png" alt="" width="48" height="48"></a></p>
+<p><strong>Runtime & utilities</strong></p>
+<p>Caching, sessions, JWT tokens and application logging.</p>
+<p><a href="#runtime">Explore packages →</a></p>
+<p>&nbsp;</p>
+
+<p><a href="#translation"><img src="docs/assets/icons/translation.png" alt="" width="48" height="48"></a></p>
+<p><strong>Translation</strong></p>
+<p>Localization contracts, language rules and translation providers.</p>
+<p><a href="#translation">Explore packages →</a></p>
+
+</td>
 </tr>
 </table>
 
