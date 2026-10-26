@@ -63,6 +63,7 @@ See the [getting started guide](docs/getting-started.md) for examples of choosin
 Browse packages by category. Select a category to jump to its package list.
 
 <table width="100%">
+<tbody>
 <tr>
 <td width="50%" valign="top">
 <p><a href="#core"><img src="docs/assets/icons/core.png" alt="" width="48" height="48"></a></p>
@@ -77,9 +78,8 @@ Browse packages by category. Select a category to jump to its package list.
 <p><a href="#database">Explore packages →</a></p>
 </td>
 </tr>
-</table>
-
-<table width="100%">
+</tbody>
+<tbody>
 <tr>
 <td width="50%" valign="top">
 <p><a href="#http-routing"><img src="docs/assets/icons/http-routing.png" alt="" width="48" height="48"></a></p>
@@ -94,9 +94,8 @@ Browse packages by category. Select a category to jump to its package list.
 <p><a href="#runtime">Explore packages →</a></p>
 </td>
 </tr>
-</table>
-
-<table width="100%">
+</tbody>
+<tbody>
 <tr>
 <td width="50%" valign="top">
 <p><a href="#templates"><img src="docs/assets/icons/templates.png" alt="" width="48" height="48"></a></p>
@@ -111,9 +110,8 @@ Browse packages by category. Select a category to jump to its package list.
 <p><a href="#translation">Explore packages →</a></p>
 </td>
 </tr>
-</table>
-
-<table width="100%">
+</tbody>
+<tbody>
 <tr>
 <td width="50%" valign="top">
 <p><a href="#profiling"><img src="docs/assets/icons/profiling.png" alt="" width="48" height="48"></a></p>
@@ -123,6 +121,7 @@ Browse packages by category. Select a category to jump to its package list.
 </td>
 <td width="50%" valign="top">&nbsp;</td>
 </tr>
+</tbody>
 </table>
 
 ## Package catalog
