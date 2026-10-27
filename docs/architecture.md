@@ -12,7 +12,7 @@ Some packages define **contracts** (interfaces); others provide implementations 
 | --- | --- | --- |
 | Filtering | [`filter`](https://github.com/wilycode/filter) | [`filters`](https://github.com/wilycode/filters) |
 | Validation | [`validator`](https://github.com/wilycode/validator) | [`validators`](https://github.com/wilycode/validators), [`recaptcha-validator`](https://github.com/wilycode/recaptcha-validator) |
-| Forms | [`form`](https://github.com/wilycode/form) | [`form-image-upload`](https://github.com/wilycode/form-image-upload) |
+| Forms | [`form`](https://github.com/wilycode/form) | [`form-csrf`](https://github.com/wilycode/form-csrf), [`form-image-upload`](https://github.com/wilycode/form-image-upload) |
 | Database | [`database`](https://github.com/wilycode/database) | [`database-pdo`](https://github.com/wilycode/database-pdo), [`database-mysqli`](https://github.com/wilycode/database-mysqli) |
 | Translation | [`translation`](https://github.com/wilycode/translation) | [`translation-array`](https://github.com/wilycode/translation-array), [`translation-database`](https://github.com/wilycode/translation-database) |
 | Sessions | [`session`](https://github.com/wilycode/session) | [`session-php`](https://github.com/wilycode/session-php) |
@@ -27,6 +27,8 @@ The table shows responsibilities, **not an exact Composer dependency graph**. Re
 `wilycode/form` requires the `filter` and `validator` contracts, **not** the ready-made `filters` and `validators` collections. Applications can use their own implementations or install the provided ones.
 
 `form-image-upload` is a separate package because upload-specific metadata does not belong in every form. It may depend on more packages without adding those requirements to the form core.
+
+`form-csrf` is another optional extension. It provides a CSRF token field and validator with session-backed token management through the `session` contract. CSRF fields use the core Form's transparent-field behavior, so they are validated but excluded from aggregate business data. Applications can choose their session implementation without making native PHP sessions mandatory for `form`.
 
 ### Database: building is not executing
 
@@ -48,7 +50,7 @@ This lets applications choose their database-related parts without pulling in an
 
 ## What remains the application's responsibility?
 
-WilyCode packages do not automatically implement your application's authorization rules, CSRF protection, file storage, production secrets or token revocation. For example, `jwt-token` verifies tokens but does not implement a complete identity system, and `form-image-upload` does not persist files.
+WilyCode packages do not automatically configure your application's authorization rules, CSRF coverage across endpoints, file storage, production secrets or token revocation. `form-csrf` supplies reusable CSRF protection for forms, but the application must enable it for relevant requests and configure secure session handling. Likewise, `jwt-token` verifies tokens but does not implement a complete identity system, and `form-image-upload` does not persist files.
 
 ## Renamed database packages
 
