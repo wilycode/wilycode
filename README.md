@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/assets/wilycode-symbol-dark.svg" alt="WilyCode logo" width="176">
+  <img src="./docs/assets/wilycode-symbol-light.svg" alt="WilyCode logo" width="176">
 </p>
 
 <h1 align="center">WilyCode</h1>
