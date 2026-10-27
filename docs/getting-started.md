@@ -30,6 +30,14 @@ composer require wilycode/form
 composer require wilycode/filters wilycode/validators
 ```
 
+For optional CSRF protection in session-backed forms, install [`form-csrf`](https://github.com/wilycode/form-csrf) and a session implementation, such as `session-php`:
+
+```bash
+composer require wilycode/form-csrf wilycode/session-php
+```
+
+`form-csrf` provides a required, transparent CSRF token field, validation, and a session-backed token manager. The submitted token is validated but excluded from `Form::getData()`. See its [README](https://github.com/wilycode/form-csrf#quick-start) for integration and [Packagist](https://packagist.org/packages/wilycode/form-csrf) for available versions.
+
 [`form-image-upload`](https://github.com/wilycode/form-image-upload) is a separate extension for image-upload **metadata**. It does not store or process uploaded images.
 
 ### Database and migrations
