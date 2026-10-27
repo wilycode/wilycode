@@ -154,7 +154,8 @@ Below are the WilyCode libraries, grouped by responsibility. Follow each link fo
 | [`wilycode/filters`](https://github.com/wilycode/filters) | Ready-made string, type, array and slug filters. |
 | [`wilycode/validator`](https://github.com/wilycode/validator) | Validation contracts and structured, nested errors. |
 | [`wilycode/validators`](https://github.com/wilycode/validators) | Ready-made validators for common input types. |
-| [`wilycode/form`](https://github.com/wilycode/form) | Form fields, nested fieldsets and collections. |
+| [`wilycode/form`](https://github.com/wilycode/form) | Form fields, nested fieldsets, collections and transparent fields. |
+| [`wilycode/form-csrf`](https://github.com/wilycode/form-csrf) | Optional session-backed CSRF token field and validation for Form. |
 | [`wilycode/form-image-upload`](https://github.com/wilycode/form-image-upload) | Optional image-upload metadata fieldset for Form. |
 | [`wilycode/recaptcha-validator`](https://github.com/wilycode/recaptcha-validator) | Server-side Google reCAPTCHA v3 verification. |
 
@@ -237,7 +238,7 @@ Some packages define **contracts** while others supply optional implementations:
 | --- | --- |
 | [`filter`](https://github.com/wilycode/filter) | [`filters`](https://github.com/wilycode/filters) |
 | [`validator`](https://github.com/wilycode/validator) | [`validators`](https://github.com/wilycode/validators), [`recaptcha-validator`](https://github.com/wilycode/recaptcha-validator) |
-| [`form`](https://github.com/wilycode/form) | [`form-image-upload`](https://github.com/wilycode/form-image-upload) |
+| [`form`](https://github.com/wilycode/form) | [`form-csrf`](https://github.com/wilycode/form-csrf), [`form-image-upload`](https://github.com/wilycode/form-image-upload) |
 | [`database`](https://github.com/wilycode/database) | [`database-pdo`](https://github.com/wilycode/database-pdo), [`database-mysqli`](https://github.com/wilycode/database-mysqli) |
 | [`translation`](https://github.com/wilycode/translation) | [`translation-array`](https://github.com/wilycode/translation-array), [`translation-database`](https://github.com/wilycode/translation-database) |
 | [`session`](https://github.com/wilycode/session) | [`session-php`](https://github.com/wilycode/session-php) |
