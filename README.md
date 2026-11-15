@@ -29,6 +29,7 @@ Each library maintains its **own repository, README, tests, version tags and Com
 ## Contents
 
 - [Getting started](#getting-started)
+- [Application Starter](#application-starter)
 - [Explore the ecosystem](#explore-the-ecosystem)
 - [Package catalog](#package-catalog)
 - [How the packages fit together](#how-the-packages-fit-together)
@@ -57,6 +58,16 @@ composer require wilycode/database-query wilycode/database-pdo wilycode/database
 Composer automatically resolves declared dependencies. **Do not install every package by default.** Check the selected package's README for its runtime requirements and examples.
 
 See the [getting started guide](docs/getting-started.md) for examples of choosing components.
+
+## Application Starter
+
+Want to start building right away?
+
+**[WilyCode Starter](https://github.com/wilycode/starter)** is a lightweight, ready-to-use PHP 8.4+ application built with WilyCode components. It includes routing, templates, forms, authentication, caching, translations and database migrations.
+
+Clone or download the starter to explore a working application and use it as a foundation for your own projects.
+
+**[Get WilyCode Starter](https://github.com/wilycode/starter)**
 
 ## Explore the ecosystem
 
